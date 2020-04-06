@@ -3,10 +3,11 @@
 A small utility to show a video file's GOP structure. Uses ffprobe (must be present in path).
 
 To run the program issue the command:
+```
 node gopify.js test.mp4
-
+```
 Sample output:
-
+```
 gopify v1
 
 output format:
@@ -24,3 +25,4 @@ output format:
 000720 00024.000000 IPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP = 90
 000810 00027.000000 IPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP = 90
 000900 00030.000000 I
+```
