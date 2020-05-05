@@ -33,6 +33,11 @@ async function run(){
         process.stdout.write(element.pict_type);
         ++framesInGop;  
       });
+      
+      if (framesInGop > 0){ 
+        process.stdout.write(' = ' + framesInGop.toString());
+      } 
+
       process.stdout.write("\n\n");
   }
   catch (err){
